@@ -1,0 +1,30 @@
+:root{
+    --colorPrimario: #FC4D5C;
+    --colorSecundario: #D90479;
+    --colorPrimarioTexto: #fff;
+    --colorSecundarioTexto: #404040;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    header{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../Assets/images/angel-jimenez.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: cover;
+        h1{
+            color: var(--colorPrimarioTexto);
+            font-size: 10vw;
+        }
+    }
+}
+
