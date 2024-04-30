@@ -83,6 +83,10 @@ body{
                     font-size: 1vw;
                     margin: 10px 0;
                 }
+                a:hover{
+                    background-color: var(--colorSecundario);
+                    transition: 0.5s ease;
+                }
             }
         }
         article{
@@ -123,6 +127,10 @@ body{
                     border-radius: 30px;
                     font-size: 1vw;
                     margin-top: 20px;
+                }
+                a:hover{
+                    background-color: var(--colorSecundario);
+                    transition: 0.5s ease-in-out;
                 }
             }
         }
